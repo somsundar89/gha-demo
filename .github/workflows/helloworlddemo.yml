@@ -1,7 +1,7 @@
 name: Somu Demo
 on: workflow_dispatch
 jobs:
-  First Demo Job:
+  FirstDemoJob:
     runs-on: ubuntu-latest
     steps:
        - name: DemoStep
