@@ -1,0 +1,18 @@
+name: MultipleJobs
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build the code
+        run: echo "Coding is builded"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test the code
+        run: echo "Testing the builded code"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy the code
+        run: echo "Code is Deployed"
