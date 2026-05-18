@@ -1,8 +1,8 @@
 name: Somu Demo
 on: workflow_dispatch
-  jobs:
-    First Demo Job:
-      runs-on: ubuntu-latest
-      steps:
-        - name: DemoStep
-          run: echo "Hi-Lo welcome to Somu Demo World"
+jobs:
+  First Demo Job:
+    runs-on: ubuntu-latest
+    steps:
+       - name: DemoStep
+         run: echo "Hi-Lo welcome to Somu Demo World"
